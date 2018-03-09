@@ -97,7 +97,6 @@ venv2
 !/server/src/nectar/settings.py
 *.swp
 *.db
-migrations
 .DS_Store
 pylintrc
 *.pyc
