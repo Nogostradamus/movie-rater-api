@@ -23,7 +23,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 ALLOWED_HOSTS = [
-    'movie-rater-full.herokuapp.com'
+    'movie-rater-full.herokuapp.com',
+    'movie-rater-web.firebaseapp.com'
 ]
 
 SECRET_KEY = config('SECRET_KEY')
