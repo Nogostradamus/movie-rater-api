@@ -61,7 +61,8 @@ CORS_ORIGIN_WHITELIST = (
     'localhost:8000',
     '127.0.0.1:9000',
     'localhost:4200',
-    '10.0.2.2'
+    '10.0.2.2',
+    'movie-rater-web.firebaseapp.com'
 )
 
 ROOT_URLCONF = 'movierater.urls'
